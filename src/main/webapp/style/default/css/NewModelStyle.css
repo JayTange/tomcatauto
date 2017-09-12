@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+/*class名称遵循wicket原始名称 By Shisz 2013.09.06*/
+
+/*********************************************
+			模态窗口边框样式-现代风格
+**********************************************/
+/*背景蒙板*/
+div.wicket-mask-dark{
+	filter:Alpha(Opacity=40) !important;	/*IE有效*/
+	opacity: 0.40 !important;	/*火狐、谷歌有效*/
+	
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name:fadeIn;
+	
+	-webkit-animation-duration: .7s;
+	-moz-animation-duration: .7s;
+	-o-animation-duration: .7s;
+	animation-duration: .7s;
+	
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {   
+	div.wicket-mask-dark{
+		background-color:rgba(0, 0, 0, 0.4) !important;
+	} /* for IE10+ */  
+}
+@media all and (min-width:0px) {
+	div.wicket-mask-dark{
+		background-color:rgba(0, 0, 0, 0.4) !important;
+	} /* for Webkit and Opera */
+}
+@-moz-document url-prefix(){
+	div.wicket-mask-dark{
+		background-color:rgba(0, 0, 0, 0.4) !important;
+	} /* for Firefox */
+}
+
+div.wicket-modal{
+	-webkit-animation-name: userImgShow;
+	-moz-animation-name: userImgShow;
+	-o-animation-name: userImgShow;
+	animation-name: userImgShow;
+		
+	-webkit-animation-duration: .7s;
+	-moz-animation-duration: .7s;
+	-o-animation-duration: .7s;
+	animation-duration: .7s;
+	
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+/*顶部-边框-样式*/
+div.wicket-modal div.w_blue div.w_top_1 div.w_topLeft{
+	width:16px;
+	height:15px;
+	background:url(../images/modalstyle/topLeft.png) no-repeat;
+	
+	_background-image:url(../images/modalstyle/topLeft.gif);
+}
+div.wicket-modal div.w_blue div.w_top_1 div.w_topRight{
+	width:16px;
+	height:15px;
+	background:url(../images/modalstyle/topRight.png) no-repeat;
+	
+	_background-image:url(../images/modalstyle/topRight.gif);
+}
+div.wicket-modal div.w_blue div.w_top_1 div.w_top{
+	height:15px;
+	background:url(../images/modalstyle/topCenter.png) repeat-x;
+	
+	_background-image:url(../images/modalstyle/topCenter.gif);
+}
+/*顶部-标题-样式*/
+div.wicket-modal div.w_blue div.w_caption{
+	height:40px;
+	background-color:#F3F3F3;
+	border-bottom:#DDDDDD solid 1px;
+}
+div.wicket-modal div.w_blue div.w_caption a.w_close{
+	right:15px;
+	width:35px;
+	height:35px;
+	background:url(../images/modalstyle/closeBt.png) center center no-repeat;
+	
+	_background-image:url(../images/modalstyle/closeBt.gif);
+}
+div.wicket-modal div.w_blue div.w_caption a.w_close:hover{
+	background-image:url(../images/modalstyle/closeBtHover.png);
+	
+	_background-image:url(../images/modalstyle/closeBtHover.gif);
+}
+div.wicket-modal div.w_blue div.w_caption h3.w_captionText{
+	line-height:40px;
+	vertical-align:middle;
+	color:#333;
+	margin-left:18px;
+}
+
+/*中部-边框-样式*/
+div.wicket-modal div.w_blue div.w_left{
+	background:url(../images/modalstyle/centerLeft.png) left repeat-y !important;
+	
+	_background-image:url(../images/modalstyle/centerLeft.gif) !important;
+}
+div.wicket-modal div.w_blue div.w_right_1{
+	margin-left:15px;
+}
+div.wicket-modal div.w_blue div.w_right_1 div.w_right{
+	background:url(../images/modalstyle/centerRight.png) right repeat-y;
+	
+	_background-image:url(../images/modalstyle/centerRight.gif);
+}
+div.wicket-modal div.w_blue div.w_right div.w_content_1{
+	margin-right:15px;
+}
+/*中部-内容部分-样式*/
+div.wicket-modal div.w_blue div.w_content_3{
+	border:none;
+}
+
+/*底部-边框-样式*/
+div.wicket-modal div.w_blue div.w_bottom_1 div.w_bottomLeft{
+	width:16px;
+	height:15px;
+	background:url(../images/modalstyle/bottomLeft.png) no-repeat;
+	
+	_background-image:url(../images/modalstyle/bottomLeft.gif);
+}
+div.wicket-modal div.w_blue div.w_bottom_1 div.w_bottomRight{
+	width:16px;
+	height:15px;
+	background:url(../images/modalstyle/bottomRight.png) no-repeat;
+	
+	_background-image:url(../images/modalstyle/bottomRight.gif);
+}
+div.wicket-modal div.w_blue div.w_bottom_1 div.w_bottom{
+	height:15px;
+	background:url(../images/modalstyle/bottomCenter.png) repeat-x;
+	
+	_background-image:url(../images/modalstyle/bottomCenter.gif);
+}
+
+div.dlgCenter {
+	margin:15px 12px 0px 15px;
+}

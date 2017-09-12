@@ -1,0 +1,170 @@
+
+.header {
+	background: url(../images/logo.png) no-repeat;
+	height: 50px;
+}
+
+.userinfo_header {
+	background: url(../images/userinfo_logo.png) no-repeat;
+	height: 30px;
+}
+
+.authorize_header {
+	background: url(../images/authorize_logo.png) no-repeat;
+	height: 50px;
+}
+
+.monitor_header {
+	background: url(../images/monitor_logo.png) no-repeat;
+	height: 50px;
+}
+
+.admin_info {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 100px;
+    top: 10px;	
+}
+
+.require{
+	background-color: #FFFFCC;
+}
+
+.mark {
+	background-color: yellow;
+	margin: 5px;
+}
+
+.feedbackPanelERROR {
+	color: red;
+	list-style: circle;
+	font-weight: bold;
+}
+
+.feedbackPanelINFO {
+	color: green;
+	list-style: circle;
+	font-weight: bold;
+}
+
+#feedbackPanel {
+	width: 600px;
+}
+
+.resOk {
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.resFail {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+label.error {
+	color: red;
+	font-style: italic
+}
+
+/*
+a:hover span {
+	color:blue;
+	text-decoration: underline;
+} 
+*/
+
+/*查询条件与列表*/
+/*
+div.qCtrl {
+	margin: 10px 0px;
+}
+
+a.qBtnSel, a.qBtnUnSel {
+	margin: 0 5px;
+	width: 74px;
+	height: 22px;
+	background-image: url("../images/wcl/btnQuery.jpg");
+	text-decoration: none;
+	text-align: center;
+	line-height: 22px;
+	font-size : 10pt;
+	font-weight: bold;
+	display: inline-block;
+}
+
+a.qBtnSel {
+	color: #424A93;
+}
+
+a.qBtnUnSel {
+	color: #7E86C5;
+}
+*/
+
+/* table
+-------------------------------------------------------------------------------*/
+tr.even {
+  background-color : #F7F7FF;
+}
+
+
+
+/*缺省panel*/
+span#wDef {
+	background-image: url("../images/welcome.jpg");
+	background-repeat : no-repeat;
+	width: 520px;
+	height: 240px;
+	display: inline-block;
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+.footer-links {
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+pre {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+}
+
+#appName {
+	margin: 0.3em 0 0 0.5em;
+	height: 1.5em;
+	font-size: 1.5em;
+}
+
+.nav-info {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top:  -15px;
+}
+
+.nav-info li {
+	margin-right: 5px;
+}
+
+.nav-info #adminInfo {
+    padding-right: 10px;
+    padding-top: 6px;
+    color: #ffffff
+}
