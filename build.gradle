@@ -22,6 +22,8 @@ dependencies {
     compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-el', version: '7.0.65'
     compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-logging-log4j', version: '7.0.65'
     compile group: 'org.apache.tomcat', name: 'tomcat-dbcp', version: '7.0.65'
+    compile 'org.springframework:spring-context:4.3.10.RELEASE'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.10.RELEASE'
 }
 
 test {
